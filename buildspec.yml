@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo '***** This is the current env:'
+      - printenv
+      - ls -lah
+      - pwd
+
+  build:
+    commands:
+
+  post_build:
+    commands:
+      - echo "in post_build" 
