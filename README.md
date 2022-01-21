@@ -1,4 +1,4 @@
-# aws-cloudops-workshop
+# aws-cloudops-storage
 
 ### Setup:
 
