@@ -8,5 +8,5 @@ pre: "<b>4. </b>"
 
 # Adding Storage
 
-In this tutorial, you’ll add some storage to your web server. In AWS, you do this by attaching an 
+In this tutorial, you'll add some storage to your web server. In AWS, you do this by attaching an 
 Amazon Elastic Block Store (Amazon EBS) volume to the EC2 instance you've created previously.
