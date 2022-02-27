@@ -1,5 +1,5 @@
 ---
-title: "Create an Amazon EBS volume"
+title: "FSx versus EFS"
 draft: false
 weight: 20
 pre: 

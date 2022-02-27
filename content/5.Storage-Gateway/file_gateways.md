@@ -1,5 +1,5 @@
 ---
-title: "Moving the web root"
+title: "File Gateways"
 chapter: false
 weight: 10
 ---

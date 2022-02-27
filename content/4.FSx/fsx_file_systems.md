@@ -1,5 +1,5 @@
 ---
-title: "Introduction to EBS"
+title: "Four Flavors of FSx"
 draft: false
 weight: 10
 ---
