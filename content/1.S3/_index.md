@@ -5,12 +5,61 @@ weight: 20
 pre: "<b>1. </b>"
 ---
 
-### Exercise 1
+# Simple Storage Service
 
-# Creating a Simple Storage Solution Bucket
-In this tutorial, you'll create an Amazon S3 (Simple Storage Solution) bucket in a region of AWS.
-We'll use the region named _us-east-1:_  for this exercise.  This region is located in Northern Virginia, and it was
-the first AWS region to be constructed. 
+## Amazon S3 Defined  
 
-As part of the creation of this S3 bucket, we'll review the different S3 storage classes. Further, we'll learn how to secure our bucket
-through Access Control Lists (ACLs), Bucket Policies, and encryption.  Finally, we'll understand other configurable bucket options including:  life cycle policies, cross origin resource sourcing (CORS), and cross region replication (CRR).
+- Amazon Simple Storage Service is an object storage service that offers:
+    - scalability
+    - data availability
+    - security
+    - performance
+- Use cases include:
+    - data lakes
+    - websites
+    - mobile applications
+    - backup and restore
+    - archive
+    - enterprise applications
+    - IoT devices
+    - big data analytics
+
+## Core Components  
+
+##### **Bucket**: a container for objects  
+- Has a globally unique name  
+    - Virtual Hosted Style:
+        - General:  https://bucket-name.s3.Region.amazonaws.com/key-name  
+	- Example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
+    - Path Style (to be deprecated):
+        - General:  https://s3.Region.amazonaws.com/bucket-name/key-name  
+	- Example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
+    - S3 Style (via some S3 services)
+        - General:  S3://bucket-name/key-name
+	- Example:  S3://mybucket/puppy.jpg
+- Service quota defaults:
+    - 100 buckets per account  
+    - no limit to objects within a bucket
+       
+##### **Object**: a file and any metadata that describes the file
+- Has a **Key**
+    - The name assigned to an object
+    - Used to retrieve the object
+- Has a **Version ID**
+    - uniquely identifies an object along with the **Key**
+    - a string that Amazon S3 generates when you add an object to a bucket
+- Has a **Value**
+    - The content being stored (e.g. .txt, .csv, .parquet, .png, .mp3)
+    - Any any sequence of bytes
+    - range zero to 5 TB
+
+##### **Folders**
+- are logical only and don't really exist
+	- Example:  https://my-bucket.s3.us-west-2.amazonaws.com/animals/dogs/puppy.png
+	- */animals/dogs* is a logical folder
+	- */animals/dogs/puppy.png* is the **Object**
+- can be used as a prefix for S3 **Events**
+
+##### **Metadata**: a set of name-value pairs used to store information regarding the object
+- user-defined metadata by customers
+- system-metadata by AWS
