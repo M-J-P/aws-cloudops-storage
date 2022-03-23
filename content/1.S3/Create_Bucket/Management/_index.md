@@ -1,16 +1,26 @@
 ---
 title: "Management"
 chapter: false
-weight: 30
+weight: 40
 pre:
 ---
 
-### Exercise 1
+## Management of an S3 Bucket
 
-# Creating a Simple Storage Solution Bucket
-In this tutorial, you'll create an Amazon S3 (Simple Storage Solution) bucket in a region of AWS.
-We'll use the region named _us-east-1:_  for this exercise.  This region is located in Northern Virginia, and it was
-the first AWS region to be constructed. 
+#### Lifecycle Rules:
+1. **TBD**
 
-As part of the creation of this S3 bucket, we'll review the different S3 storage classes. Further, we'll learn how to secure our bucket
-through Access Control Lists (ACLs), Bucket Policies, and encryption.  Finally, we'll understand other configurable bucket options including:  life cycle policies, cross origin resource sourcing (CORS), and cross region replication (CRR).
+#### Replication Rules:
+1. Enables automatic, asynchronous copying of objects across Amazon S3 buckets
+    - Same-Region Replication (SRR)
+    - Cross-Region Replication (CRR)
+2. To a single destination bucket or to multiple destination buckets
+3. Replicate all objects or designate a filter
+    - filter by prefix
+    - filter by tag
+4. Preserve encryption if desired
+5. Uses cases:
+    - Replicate objects while retaining metadata
+    - Replicate objects into different storage classes
+    - Maintain object copies under different ownership
+    - Keep objects stored over multiple AWS Regions
