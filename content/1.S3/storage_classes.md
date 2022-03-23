@@ -5,11 +5,14 @@ weight: 10
 pre: 
 ---
 
-## Description
+## Overview
 
 - Each **Object** in Amazon S3 has a storage class associated with it
-- The console shows the storage class for all the objects in the list 
-- The class is dependent on the use case and performance access requirements
+- The console shows the storage class for all the objects in the bucket list 
+- The class is dependent on the use case and performance access requirements; factors are:
+    - availability
+    - retention
+    - cost
 - Each class offers high durability - 99.999999999% *(11 9's)*
 
 ## Durability versus Availability 
@@ -30,10 +33,14 @@ pre:
     - for less frequently accessed data
     - saves up to 40% on storage costs
     - 99.9% availability *(3 9's)*
+    - for objects larger than 128 KB (charged for 128 KB if less)
+    - minimum retention of at least 30 day *(charged for 30 days if deleted earlier)*
 - **S3 One Zone-IA**
     - for infrequently accessed data stored only in one Availability Zone
     - costs 20% less than S3 Standard-IA
     - 99.5% availability
+    - for objects larger than 128 KB (charged for 128 KB if less)
+    - minimum retention of at least 30 day *(charged for 30 days if deleted earlier)*
 - **S3 Glacier**
     - for archive data
 - **S3 Outposts**
