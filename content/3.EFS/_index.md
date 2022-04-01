@@ -1,28 +1,35 @@
 ---
-title: "EFS"
+title: "Elastic File System"
 chapter: true
 weight: 40
 pre: "<b>3. </b>"
 ---
-### Exercise 3
 
-# Installing a Web Server
+# Elastic File System
 
-What will we be doing in this section?
+## Amazon EFS Defined  
 
-We will learn by _doing_ and will install an Apache web server using the yum package manager. 
+- Amazon EFS is a network file system *(NFS)* used to allow multiple clients to have access to the same set of files.  Key features include:
+    - shared file storage:  both Amazon EC2 instances and on-premises servers can simultaneously access a shared Amazon EFS
+    - dynamic elasticity:  scales storage capacity up or down
+    - scalable performance:  throughput and IOPS *(input/output operations per second)* scale as a file system grows and can burst for short periods
+    - fully managed:  AWS manages the file storage infrastructure, removing the complexity of deploying, patching, and maintaining the underpinnings of a file system
 
-We'll install the Apache Web Server (also referred to as _httpd_ - the HTTP Daemon). This is a very common (open source)
-piece of software that you'll encounter in almost any company that has internet facing applications.
-Other common web servers include:
+## Core Components  
 
-- nginx (pronounced 'engine ex')
-- Internet Information Services (IIS) - Microsoft
+##### **Clients:**
+- Amazon EC2s
+- on-premises servers
+- other machines
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Usage_share_of_web_servers_%28Source_Netcraft%29.svg">
+##### **Remote Procedure Calls (RPCs):**
+- route requests between clients and servers
 
-<br/>
+##### **Mount Target:**
+- provides an IP address for an NFSv4 endpoint at which you can mount Amazon EFS
 
-[According to Wikipedia](https://en.wikipedia.org/wiki/Web_server), around 90% of web sites are served from Apache and nginx as of February 2019.
-Microsoft IIS and others represent the remaining 10%. You can use a tool from Netcraft to determine what software a site is
-running. [Try it here and inspect www.amazon.com](https://sitereport.netcraft.com/?url=http://www.amazon.com)
+##### **File System:**
+- where and how files are stored
+- separates data into individual pieces
+- has access controls through permissions
+- **ADD PICTURE FROM HERE:  https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html**

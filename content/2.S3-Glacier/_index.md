@@ -26,12 +26,12 @@ pre: "<b>2. </b>"
 
 ## Core Components  
 
-##### **Vault**: a container for storing archives 
+##### **Vault**: a container for storing archives
 - Service quota defaults:
     - 1000 vaults per AWS account per region
 
 ##### **Archives**: what is stored in the Vault
 - Archives can be:
-    - single objects 
+    - single objects
     - a collection of objects *(e.g. TAR or ZIP)*
 - Maximum of 40 TB
