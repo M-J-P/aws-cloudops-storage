@@ -21,6 +21,9 @@ pre:
 - **Availability** - the percentage of time that a workload is available for use. 
 
 ## S3 Storage Class Types
+
+<img src='/images/s3-storage-classes-2021.png' width='1600px'>
+
 - **S3 Intelligent-Tiering**
     - for unknown or changing access
     - automatic cost savings for data with unknown or changing access patterns
@@ -46,8 +49,5 @@ pre:
 - **S3 Outposts**
     - for on-premises data
 
-<img src='/images/s3-storage-classes-2021.png' width='1600px'>
-
-*from Re:Invent 2021*
 
 

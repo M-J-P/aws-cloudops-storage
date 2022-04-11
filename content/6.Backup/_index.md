@@ -1,23 +1,68 @@
 ---
-title: "Backup"
-chapter: false
-weight: 100
+title: "AWS Backup"
+chapter: true
+weight: 70
 pre: "<b>6. </b>"
 ---
 
-{{% notice info%}}
-We would very much appreciate it if you would take [our survey](https://docs.google.com/forms/d/e/1FAIpQLSdS8rG5zn7GcLi3b_JEK7xAODHVaMu-ehH7RiU7mHgAdt7zKw/viewform?fbzx=-5379244279693983460) so that we can improve the content for next time! Responses are anonymous. 
-{{% /notice%}}
+# AWS Backup
 
+## AWS Backup Defined  
 
-The web server you created in this workshops is in the [free tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc).
+- A centralized service that manages and automates backups across other AWS services
+- Protects storage volumes, databases, and file systems
+- Consolidated view for monitoring, logging, and alerts
+- Define schedules for automated backups
+- Configure retention management and lifecycle management
+- Apply unique backup policies using tags
+- Encrypts data in transit and at rest
+- Monitor backup and restore activities
+- Cross-account management with AWS Organizations
+- Efficiently stores your periodic backups incrementally
+    - first backup is a full copy of the data
+    - saves storage costs
 
-However you should take care to shutdown the instance and remove the storage volume so that you do not incur any costs.
+## Supported data services
+- Aurora
+- DocumentDB
+- DynamoDB
+- EBS
+- EFS
+- FSx for Lustre
+- FSx for Windows File Server
+- Neptune
+- RDS
+- S3
+- Storage Gateway
 
-On a related note, check out the [pricing of EC2](https://aws.amazon.com/ec2/pricing/on-demand/) instances and [EBS volumes](https://aws.amazon.com/ebs/pricing/). You'll see that
-the pricing of instances varies widely. Our t2.micro instance in us-east-1 costs $0.0116/hr -- that is, a little over a penny. Reading further, 
-you'll notice that these so-called on-demand instances are actually charged _per second_.
-<br>
+## Core Components  
 
-Elastic Block Store (EBS) storage is charged a bit differently than EC2. Our EBS volume costs $0.08/GB-month. Notice that there are
-different choices for EBS volumes. These options will be discussed in an upcoming storage session. 
+##### **Vault**: a container that stores and organizes backups
+- A logical construct that lives within the account
+- Behind the curtain, backups are stored on S3 across AWS owned accounts in the same region
+- Protected by AWS KMS encryption key
+- Backups cannot be re-encrypted (ransomeware protection)
+- Provides operational risk protection
+- Provides cyber threat actor protection
+- Access policies:
+    - grant access to users to create backup plans and on-demand backups
+    - limit ability to delete recovery points once created.
+- Vault Lock:
+    - prevent delete operations
+    - prevent updates that may alter/shorten their retention period
+       
+##### **Plan**: defines when and how to back up AWS resources
+- Assign resources to backup plans
+- Define the backup frequency
+    - hourly
+    - 12 hours
+    - daily
+    - weekly
+    - monthly
+    - custom period using CRON expression (minimum of hourly)
+- Enable continuous backups checkbox to create a point-in-time restore (PITR)-enabled continuous backup rule
+    - RDS
+    - S3
+- Set the backup window
+- Enable replication to other regions
+- Define the retention period
