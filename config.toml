@@ -13,15 +13,15 @@ hrefTargetBlank = true
 [params]
 themeVariant = "mine"
 showVisitedLinks = true
-author = "John Dixon, Claudiu Bota"
+author = "Matthew Patrick, John Dixon, Utsav Joshi, Bobby Malik"
 description = "Amazon CloudOps Linux Workshop"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=false
 disableInlineCopyToClipBoard = true
-editURL = "https://github.com/dixonaws/aws-cloudops-linux/edit/main/content/"
-baseURL = "https://dixonaws.com/aws-cloudops-linux/index.html"
+editURL = "https://github.com/dixonaws/aws-cloudops-storage/edit/main/content/"
+baseURL = "https://storageworkshop.aws-cloudops.com/index.html"
 disableLandingPage=false
 landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i> Home"
@@ -33,26 +33,26 @@ landingPageName = "<i class='fas fa-home'></i> Home"
 [[menu.shortcuts]]
 identifier = 'github'
 name="<i class='fab fa-github fa-lg'></i> Github Repo"
-url = "https://github.com/dixonaws/aws-cloudops-linux"
+url = "https://github.com/dixonaws/aws-cloudops-storage"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-twitter fa-lg'></i> @dixonjp90"
-identifier = "tw"
-url = "https://twitter.com/intent/user?screen_name=dixonjp90"
-weight = 20
-
-[[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> John Dixon"
+name = "<i class='fab fa-linkedin fa-lg'></i> Matthew Patrick"
 identifier = "li0"
-url = "https://www.linkedin.com/in/jpd44/"
+url = "https://www.linkedin.com/in/matthew-patrick-capone/"
 weight = 30
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> Claudiu Bota"
+name = "<i class='fab fa-linkedin fa-lg'></i> Utsav Joshi"
 identifier = "li1"
-url = "https://www.linkedin.com/in/claudiu-bota-6b400315a/"
+url = "https://www.linkedin.com/in/joshiutsav/"
 weight = 40
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin fa-lg'></i> Bobby Malik"
+identifier = "li2"
+url = "https://www.linkedin.com/in/bobby-malik/"
+weight = 50
 
 
 
