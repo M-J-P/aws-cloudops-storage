@@ -13,10 +13,9 @@ Install and configure the CLI [here](https://aws.amazon.com/cli/).
 See if you can perform these tasks with the CLI:
 
 1. Launch an EC2 instance
-2. Configure the security group
-3. Create an EBS volume
-4. Attach the volume to an EC2 instance
-5. Delete the EBS volume
-6. Terminate the EC2 instance
+2. Create an EBS volume
+3. Attach the volume to an EC2 instance
+4. Delete the EBS volume
+5. Terminate the EC2 instance
 
 
