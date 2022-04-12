@@ -1,0 +1,67 @@
+---
+title: "Create an SNS Topic"
+chapter: false
+weight: 10
+pre:
+---
+
+## Create an SNS Topic 
+
+`STEP 1:`  Open another AWS Console tab through a preferred method (e.g. duplicate the tab).
+
+`STEP 2:`  Search for and navigate to the **Simple Notification Service** (SNS).
+
+`STEP 3:`  Open the left-hand menu (if not already open) and select **Topics**.
+
+`STEP 4:`  Select **Create topic**.
+
+`STEP 5:`  Under **Details** ...
+- Select the *Standard* radio button.
+- Provide a topic name (e.g. s3-bucket-notification).
+
+`STEP 6:`  Skip to the bottom of the page and select **Create topic**.
+
+## Create an SNS Subscription
+
+`STEP 7:`  Select **Create subscription**.
+
+`STEP 8:`  Under **Details** ...
+- Select *Email* from the **Protocol** drop-down.
+- Provide an email address to which you have access during this class.
+
+`STEP 9:`  Expand the **Access policy** section and replace the existing policy with the below
+- where the three tagged <> sections should use your values; the "<" and ">" are to be removed.
+
+```
+{
+  "Version": "2012-10-17",
+  "Id": "example-ID",
+  "Statement": [
+    {
+      "Sid": "Example SNS topic policy",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "s3.amazonaws.com"
+      },
+      "Action": "SNS:Publish",
+      "Resource": "<YOUR SNS TOPIC ARN>",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "<YOUR ACCOUNT NUMBER>"
+        },
+        "ArnLike": {
+          "aws:SourceArn": "arn:aws:s3:*:*:<YOUR S3 BUCKET>"
+        }
+      }
+    }
+  ]
+}
+```
+
+`STEP 10:`  Skip to the bottom of the page and select **Create subscription**.
+
+## Confirm your subscription
+
+`STEP 11:`  Open the received email and select **Confirm subscription**.
+
+`STEP 12:`  Navigate back to the S3 service.
