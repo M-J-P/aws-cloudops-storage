@@ -24,6 +24,6 @@ We'll have instructor-led sessions to make sure everyone can to get through the 
 <br>
 Your Tourguides:
 
-| ![Matthew Patrick](/images/mpatrick.jpg?height=250px&classes=shadow,border)               | ![Utsav Joshi](/images/ujoshi.png?height=250px&classes=shadow,border)                    | ![Bobby Malik](/images/mabobby.png?height=250px&classes=shadow,border)                   |
+| ![Matthew Patrick](/images/pamatthew.png?height=250px&classes=shadow,border)               | ![Utsav Joshi](/images/ujoshi.png?height=250px&classes=shadow,border)                    | ![Bobby Malik](/images/mabobby.png?height=250px&classes=shadow,border)                   |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | <center>Matthew Patrick<br>Senior Manager, Capital One<br>Richmond, Virginia</center> | <center>Utsav Joshi<br>Sr. Technical Account Manager, AWS<br>New York, New York</center> | <center>Bobby Malik<br>Principal Solutions Architect, AWS<br>New York, New York</center> |

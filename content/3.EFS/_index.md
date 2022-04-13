@@ -32,4 +32,5 @@ pre: "<b>3. </b>"
 - where and how files are stored
 - separates data into individual pieces
 - has access controls through permissions
-- **ADD PICTURE FROM HERE:  https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html**
+
+<img src='/images/efs.png' width='600px'>

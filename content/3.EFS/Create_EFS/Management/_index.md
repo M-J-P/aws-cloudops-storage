@@ -17,8 +17,9 @@ pre:
         - 30 days since last access
         - 60 days since last access
         - 90 days since last access
-3. Automatic transistion of files out of infrequently accessed storage
+3. Automatic transition of files out of infrequently accessed storage
     - Transition options include:
         - None
         - On first access
-4. **SHOW TABLE OF COMBINATIONS**
+
+<img src='/images/efs-transition.png' width='800px'>

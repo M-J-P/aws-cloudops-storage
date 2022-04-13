@@ -1,24 +1,27 @@
 ---
-title: "Create an Glacier Vault"
+title: "Create a Glacier Vault"
 chapter: true
 weight: 20
 pre:
 ---
 
-### Exercise 1
+### Exercise 2 
 
-# Creating a Simple Storage Solution Bucket
+# Creating a Glacier Vault
 
-In this tutorial, you'll create an Amazon S3 (Simple Storage Solution) bucket in a region of AWS.
-We'll use the region named _us-east-1:_  for this exercise.  This region is located in Northern Virginia, and it was
-the first AWS region to be constructed. 
+In this tutorial, you'll create a Glacier Vault in a region of AWS.  We'll use the `us-east-1` region again
 
-As part of the creation of this S3 bucket, we'll review the different S3 storage classes. Further, we'll learn how to secure our bucket
-through Access Control Lists (ACLs), Bucket Policies, and encryption.  Finally, we'll understand other configurable bucket options including:  life cycle policies, cross origin resource sourcing (CORS), and cross region replication (CRR).
+As part of the creation of this Glacier Valut, we'll cover some of the general properties. Further, we'll take a look at how additional
+policies can be applied.
 
 
 #### STEPS:
 1. Login to the AWS Console
 2. Select the `us-east-1` region
-3. Navigate to the S3 service
-4. Select `Create Bucket`
+3. Navigate to the S3 Glacier service
+4. Select `Create Vault`
+
+#### Please move on to the next sections to continue.
+
+{{% children showhidden="false" %}}
+

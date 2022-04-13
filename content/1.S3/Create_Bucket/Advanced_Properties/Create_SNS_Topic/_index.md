@@ -47,7 +47,7 @@ pre:
       "Resource": "<YOUR SNS TOPIC ARN>",
       "Condition": {
         "StringEquals": {
-          "aws:SourceAccount": "<YOUR ACCOUNT NUMBER>"
+          "aws:SourceAccount": "<YOUR ACCOUNT ID>"
         },
         "ArnLike": {
           "aws:SourceArn": "arn:aws:s3:*:*:<YOUR S3 BUCKET>"
