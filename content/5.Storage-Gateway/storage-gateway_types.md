@@ -27,7 +27,8 @@ pre:
 - Local cache is maintained
     - Provides low latency access to the recently accessed data 
     - Reduces data egress charges
-- **ADD IMAGE (https://docs.aws.amazon.com/filegateway/latest/files3/StorageGatewayConcepts.html)**
+
+<img src='/images/storage-gateway.png' width='800px'>
 
 ##### **Amazon FSx File Gateway**
 - Stores and retrieves objects in Amazon FSx Windows Server

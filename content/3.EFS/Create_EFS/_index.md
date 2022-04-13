@@ -1,16 +1,29 @@
 ---
 title: "Create an Elastic File System"
 chapter: true
-weight: 30
+weight: 20
 pre:
 ---
 
-### Exercise 1
+### Exercise 3 
 
-# Creating a Simple Storage Solution Bucket
-In this tutorial, you'll create an Amazon S3 (Simple Storage Solution) bucket in a region of AWS.
-We'll use the region named _us-east-1:_  for this exercise.  This region is located in Northern Virginia, and it was
-the first AWS region to be constructed. 
+# Creating an EFS
 
-As part of the creation of this S3 bucket, we'll review the different S3 storage classes. Further, we'll learn how to secure our bucket
+In this tutorial, you'll create an Amazon EFS (Elastic File System) in a region of AWS.
+Again, we'll use the `us-east-1` region for this exercise. 
+
+As part of the creation of this S3 bucket, we'll cover some of the general properties. Further, we'll learn how to secure our bucket
 through Access Control Lists (ACLs), Bucket Policies, and encryption.  Finally, we'll understand other configurable bucket options including:  life cycle policies, cross origin resource sourcing (CORS), and cross region replication (CRR).
+
+
+#### STEPS:
+1. Login to the AWS Console
+2. Select the `us-east-1` region
+3. Navigate to the EFS service
+4. Select `File systems` from the left-hand menu
+5. Select `Create file system`
+
+#### Please move on to the next sections to continue.
+
+{{% children showhidden="false" %}}
+
