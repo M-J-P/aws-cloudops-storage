@@ -1,5 +1,5 @@
 ---
-title: "Create an S3 Bucket"
+title: "Create an EBS Volume"
 chapter: true
 weight: 20
 pre:
@@ -7,7 +7,7 @@ pre:
 
 ### Exercise 1
 
-# Creating a Simple Storage Solution Bucket
+# Creating a Elastic Block Store Volume
 
 In this tutorial, you'll create an Amazon S3 (Simple Storage Solution) bucket in a region of AWS.
 We'll use the region named `us-east-1`  for this exercise.  This region is located in Northern Virginia, and it was
