@@ -1,69 +1,69 @@
 ---
-title: "General Properties"
+title: "Volume Settings"
 chapter: false
 weight: 10
 pre:
 ---
 
-## General Properties of an S3 Bucket
+## General Settings of an EBS Volume
 
-#### Configuration:
-- A unique name to describe the bucket
-- A region in which the bucket is to be created
+#### Volume Type:
+- Select the type of the bucket to best align with the use case
 
-`STEP 6:`  Choose a unique name for your bucket
+`STEP 6:`  Select **General Purpose SSD (gp-3)** from the drop-down.
 
-`STEP 7:`  Select the **us-east-1** region for your bucket
+#### Size (GiB):
+- Configure how large the volume is:  
+    - General Purpose SSD - 1 GiB (min) and 16 TiB (max)
+    - Provisioned IOPS SSD - 4 GiB (min) and 16 TiB (max)
+    - Throughput Optimized HDD - 125 GiB (min) and 16 TiB (max)
+    - Cold HDD - 125 GiB (min) and 16 TiB (max)
+    - Magnetic - 1 GiB (min) and 1 TiB (max)
 
-#### Object Ownership:
-- ACL Disabled *(recommended)*:  ensures that every object in the bucket is owned by the account owner
-- ACL Enabled:  allows for other accounts to own an object that they write to this bucket
+`STEP 7:`  Enter the minimum size of **1 GiB**.  *(feel free to experiment with numbers)*
 
-`STEP 8:`  Toggle the radio button under **Object Ownership**.
-    - Notice the difference
+#### IOPS:
+- Configure the requested number of I/O operations per second
+    - General Purpose SSD (gp2) - 100 to 16,000 IOPS (proportionate to the size)
+    - General Purpose SSD (gp3) - 3,000 to 16,000 IOPS
+    - Provisioned IOPS SSD - 100 to 64,000 IOPS
+    - Throughput Optimized HDD - performance is measured in throughput (MiB/s)
+    - Cold HDD - performance is measured in throughput (MiB/s)
+    - Magnetic - 100 IOPS on average; burstable
 
-`STEP 9:`  Toggle the radio button back to *ACL disabled*.
+`STEP 8:`  Enter the minimum size of **3000 IOPS**.  *(feel free to experiment with numbers)*
 
-#### Public Access:
-- Buckets are private by default, where objects can only be accessed within the account
-- To make objects public, disable the default and select any additional protections
-- Specifically acknowledge if a bucket is to have a public configuration
+#### Throughput:
+- Configure the throughput performance that the volume can support, measured in MiB/s.
+    - General Purpose SSD (gp2) - not applicable
+    - General Purpose SSD (gp3) - 125 MiB/s (min) to 1000 MiB/s (max)
+    - Provisioned IOPS SSD - not applicable
+    - Throughput Optimized HDD - 40 MiB/s per TiB (proportionate to the size)
+    - Cold HDD - 12 MiB/s per TiB (proportionate to the size)
+    - Magnetic - not applicable
 
-`STEP 10:`  Uncheck the checkbox under **Block Public Access settings for this bucket**.
-    - Notice the difference
+`STEP 9:`  Enter the minimum throughput of **125**.
 
-`STEP 11:`  Re-check the checkbox.
+#### Availability Zone:
+- The AZ in which to create the volume
+- Can only be attached to instances that are in the same Availability Zone
 
-#### Versioning:
-- Allows for keeping multiple variants of an object in the same bucket
-- Used to preserve, retrieve, and restore every version of every object stored in your Amazon S3 bucket
-- Versioning is often required for additional bucket capabilities *(e.g. Life Cycle Policies, Backups)*
+`STEP 10:`  Select **us-east-1a** from the drop-down.
 
-`STEP 12:`  Toggle this radio button under **Bucket Versioning**.  
-    - Leave it on *enabled*.
+#### Snapshot ID:
+- The ability to create a volume from a point-in-time snapshot
+
+`STEP 11:`  Select *Don't create volume from a snapshot* from the drop-down.
+
+#### Encryption:
+
+`STEP 12:`  Select the *Encrypt this volume* checkbox.
 
 #### Tags:
-- Define tags to categorize your bucket for discovery, analysis, and/or cost tracking
-- Some labeling examples include:  by project, by owner, by application, by environment, by sensitivity
-- Uses key-value pairs
+- Additional labels using key/value pairs.
 
-`STEP 13:`  Select Add Tag under **Tags**.  
-    - Define the Key as "Environment"  
-    - Define the Value as "PROD
-
-#### Encyption:
-- Protect your objects by encrypting them via:
-    - Amazon S3-managed keys *(SSE-S3)*
-    - keys stored in AWS Key Management Service *(SSE-KMS)*
-
-`STEP 14:`  Toggle this radio button under **Default encryption**.  
-    - Leave it on *Enable*.  
-    - Leave the encryption type as *Amazon S3-managed keys (SSE-S3)*  
-        - *(but feel free to play around)*
-
-#### Object Lock:
-- Store objects using a write-once-read-many *(WORM)* model
-- Pevent objects from being deleted or overwritten for a fixed amount of time or indefinitely
-- Define retention periods through a bucket policy
-
-`STEP 15:`  Select **Create Bucket** at the bottom of the page.
+`STEP 13:`  Skip to the bottom and select **Create volume**.
+<br>
+<br>
+<br>
+`BONUS:`  Create a volume for each EBS type.  Notice the differences with input options and ranges.  *(be sure to remove them once done)*

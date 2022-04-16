@@ -2,7 +2,7 @@
 title: "Storage Gateway"
 chapter: true
 weight: 60
-pre: "<b>5. </b>"
+pre: "<b>6. </b>"
 ---
 
 # Storage Gateway

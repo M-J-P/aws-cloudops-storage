@@ -2,7 +2,7 @@
 title: "Elastic File System"
 chapter: true
 weight: 40
-pre: "<b>3. </b>"
+pre: "<b>4. </b>"
 ---
 
 # Elastic File System
