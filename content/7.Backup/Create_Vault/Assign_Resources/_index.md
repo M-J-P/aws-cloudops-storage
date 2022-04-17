@@ -33,3 +33,4 @@ pre:
 
 `STEP 24:`  Skip to the bottom of the page and select **Assign resources**.
 
+`STEP 25:`  Wait until tomorrow and return to the AWS Backup service.  Look under the **Dashboad** to see if your EBS volume has been backed up.
