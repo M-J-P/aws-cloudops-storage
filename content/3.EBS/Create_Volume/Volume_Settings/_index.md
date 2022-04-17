@@ -62,7 +62,11 @@ pre:
 #### Tags:
 - Additional labels using key/value pairs.
 
-`STEP 13:`  Skip to the bottom and select **Create volume**.
+`STEP 13:`  Select **Add tag** and enter the following ...
+- **Key** ==> *EBS-Backup-Daily*
+- **Value** ==> *TRUE*
+
+`STEP 14:`  Skip to the bottom and select **Create volume**.
 <br>
 <br>
 <br>
