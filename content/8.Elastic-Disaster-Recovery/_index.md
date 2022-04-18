@@ -2,7 +2,7 @@
 title: "Elastic Disaster Recovery"
 chapter: true
 weight: 80
-pre: "<b>7. </b>"
+pre: "<b>8. </b>"
 ---
 
 # Elastic Disaster Recovery

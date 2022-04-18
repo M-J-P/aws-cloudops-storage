@@ -12,6 +12,9 @@ pre:
 ## File Gateways
 
 ##### **Amazon S3 File Gateway**
+
+<img src='/images/file-gateway.png' width='800px'>
+
 - Stores and retrieves objects in Amazon S3
     - The gateway asynchronously updates the objects in Amazon S3 as files change
     - The key becomes the path
@@ -28,8 +31,6 @@ pre:
     - Provides low latency access to the recently accessed data 
     - Reduces data egress charges
 
-<img src='/images/storage-gateway.png' width='800px'>
-
 ##### **Amazon FSx File Gateway**
 - Stores and retrieves objects in Amazon FSx Windows Server
     - Local file writes and reads benefiting from all the features available on FSx for Windows File Server
@@ -41,8 +42,12 @@ pre:
     - Amazon VPC
 
 ## Volume Gateways
+
+<img src='/images/volume-gateway.png' width='800px'>
+
 - Provides cloud-backed storage volumes mounted as Internet Small Computer System Interface (iSCSI) devices from on-premises servers.
 - Deployed into your on-premises environment as a VM
+
 
 ##### **Cached Volume**
 - Stores data Amazon S3
@@ -58,6 +63,9 @@ pre:
 - Size ranges from 1 GiB to 16 TiB
 
 ## Tape Gateway
+
+<img src='/images/tape-gateway.png' width='800px'>
+
 - Provides cloud-backed virtual tape storage 
 - Deployed into your on-premises environment as a VM
 

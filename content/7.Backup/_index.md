@@ -2,7 +2,7 @@
 title: "AWS Backup"
 chapter: true
 weight: 70
-pre: "<b>6. </b>"
+pre: "<b>7. </b>"
 ---
 
 # AWS Backup
