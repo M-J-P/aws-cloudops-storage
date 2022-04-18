@@ -5,7 +5,7 @@ weight: 20
 pre:
 ---
 
-### Exercise 3
+### Exercise 7
 
 # Creating an AWS Backup Vault and Plan for EBS
 

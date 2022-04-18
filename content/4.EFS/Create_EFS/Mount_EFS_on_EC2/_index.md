@@ -5,7 +5,7 @@ weight: 40
 pre:
 ---
 
-## Bonus Excercise
+## A Bonus Excercise for Practice
 
 #### Mounting EFS on EC2
 - Create an EFS file system and two Linux instances that can share data using the file system

@@ -9,6 +9,7 @@ pre:
 
 #### Restore an EBS Volume
 
+- Prerequisite:  the EBS snapshot has already been successfully backed-up via Exercise 7
 - Restore a EBS snapshot protected by AWS Backup
 
 ##### STEPS:
