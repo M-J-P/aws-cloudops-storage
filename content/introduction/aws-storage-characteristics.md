@@ -1,7 +1,7 @@
 ---
 title: "Storage Characteristics"
 draft: false
-weight: 3
+weight: 30
 ---
 
 <img src='/images/storage-characteristics.png' width='1000px'>

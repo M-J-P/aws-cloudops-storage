@@ -33,9 +33,11 @@ pre: "<b>3. </b>"
     - can create a snapshot from it
     - faster launch time
     - can only be encrypted at creation
+    - created from an EBS snapshot via the AMI (root volume)
 - An **Instance Store** is ephemeral storage that provides temporary block level storage for an EC2 instance
     - fastest access to data
     - accesses storage from disks that are physically attached to the host computer
     - if an instance is stopped or terminated, any data on instance store volumes is lost; a reboot still persists the data
+    - created from a template stored in Amazon S3
 - A **Snapshot** is a point in time backup of specific volume
     - can be encrypted at anytime

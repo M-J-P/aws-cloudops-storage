@@ -5,10 +5,12 @@ weight: 30
 pre: "<b>2. </b>"
 ---
 
-# S3 Glacier
+# S3 Glacier *(LEGACY)*
 
 ## S3 Glacier Defined  
 
+- S3 Glacier is a **legacy** service that persists for current customers
+- New customers are encouraged to use S3 Glacier storage tiers under S3
 - An extremely low-cost storage service that provides:
     - flexible storage
     - security

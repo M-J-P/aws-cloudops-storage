@@ -1,7 +1,7 @@
 ---
 title: "Prerequisites"
 draft: false
-weight: 1
+weight: 10
 ---
 
 You'll need to setup your laptop with various tools in order to complete the labs in this module.

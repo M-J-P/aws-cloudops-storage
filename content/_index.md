@@ -24,6 +24,6 @@ We'll have instructor-led sessions to make sure everyone can to get through the 
 <br>
 Your Tourguides:
 
-| ![Matthew Patrick](/images/pamatthew.png?height=250px&classes=shadow,border)               | ![Utsav Joshi](/images/ujoshi.png?height=250px&classes=shadow,border)                    | ![Bobby Malik](/images/mabobby.png?height=250px&classes=shadow,border)                   |
-|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| <center>Matthew Patrick<br>Senior Manager, Capital One<br>Richmond, Virginia</center> | <center>Utsav Joshi<br>Sr. Technical Account Manager, AWS<br>New York, New York</center> | <center>Bobby Malik<br>Principal Solutions Architect, AWS<br>New York, New York</center> |
+| ![Matthew Patrick](/images/pamatthew.png?height=250px&classes=shadow,border) | ![Michael Reiber](/images/remichael.png?height=250px&classes=shadow,border) | ![Prasanth Ponnoth](/images/poprasanth.png?height=250px&classes=shadow,border) | ![Utsav Joshi](/images/ujoshi.png?height=250px&classes=shadow,border) |
+|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
+| <center>Matthew Patrick<br>Senior Manager, Capital One<br>Richmond, Virginia</center> | <center>Michael Reiber<br>Senior Storage Solutions Architect, AWS<br>New York, New York</center> | <center>Prasanth Ponnoth<br>Senior Solutions Architect, AWS<br>New York, New York</center> | <center>Utsav Joshi<br>Senior Technical Account Manager, AWS<br>New York, New York</center> |
