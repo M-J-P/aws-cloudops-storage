@@ -35,9 +35,9 @@ pre:
     - Principal – The account or user who is allowed access to the **actions** and **resources** in the statement
     - Effect – What the effect will be:  **allow** or **deny**
         - default is to **deny**
-	- **allow** must be explicitly granted 
-	- is possible to explicitly **deny** access to a resource
-	    - use case:  to make sure that a user can't access the resource, even if a different policy grants access
+        - **allow** must be explicitly granted 
+        - is possible to explicitly **deny** access to a resource
+        - use case:  to make sure that a user can't access the resource, even if a different policy grants access
     - Actions – a set of operations *(APIs)* can be allowed (or denied)
     - Resources – uses the Amazon Resource Name *(ARN)* to identify the resource for which one can allow or deny permissions
 5. Best used when ansering the question:  *"Who can access this S3 bucket?"*

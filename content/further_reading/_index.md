@@ -33,6 +33,6 @@ Find comprehensive documenation for each service:
 Collected links to additional good reads:
 - [IAM Policies and Bucket Policies and ACLs! Oh, My!](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
   
-- [AWS — Difference between EBS and Instance Store](https://medium.com/awesome-cloud/aws-difference-between-ebs-and-instance-store-f030c4407387)
+- [Amazon EC2 instance root device volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html)
 
 - [SSD vs. HDD: What’s the Difference?](https://iosafe.com/data-protection-topics/ssd-vs-hdd/)

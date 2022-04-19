@@ -44,10 +44,30 @@ pre:
     - 99.5% availability
     - for objects larger than 128 KB (charged for 128 KB if less)
     - minimum retention of at least 30 day *(charged for 30 days if deleted earlier)*
-- **S3 Glacier**
-    - for archive data
+- **Glacier Instant Retrieval**
+    - for long-lived data that is accessed once per quarter and requires millisecond retrieval
+    - up to 68% lower cost than S3 Standard-IA
+    - immediate retreival
+    - 99.9% availability *(3 9's)*
+- **Glacier Flexible Retrieval** *(f.k.a. Glacier)*
+    - for archive data that is accessed 1-2 times per year and is retrieved asynchronously
+    - up to 10% lower cost than Glacier Instant Retrieval
+    - retrieval options of:
+        - Expedited *(1-5 minutes)*
+        - Standard *(3-5 hours)*
+        - Bulk *(5-12 hours)*
+    - 99.99% availability *(4 9's)*
+    - free bulk retrievals
+    - use cases:
+        - backup
+        - disaster recovery
+        - offsite data storage need
+- **Glacier Deep Archive**
+    - long-lived archive data that is accessed less than once per year and is retrieved asynchronously
+    - up to 75% lower cost than Glacier Flexible Retrieval
+    - retrieval options of:
+        - Standard *(up to 12 hours)*
+        - Bulk *(up to 24 hours)*
+    - 99.99% availability *(4 9's)*
 - **S3 Outposts**
     - for on-premises data
-
-
-
