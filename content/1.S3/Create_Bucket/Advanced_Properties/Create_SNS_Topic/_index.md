@@ -21,13 +21,9 @@ pre:
 
 `STEP 6:`  Skip to the bottom of the page and select **Create topic**.
 
-## Create an SNS Subscription
+`STEP 7:`  Copy the ARN for this topic (example:  *arn:aws:sns:us-east-1:111122223333:myTopic*) and save it to a temporary location.
 
-`STEP 7:`  Select **Create subscription**.
-
-`STEP 8:`  Under **Details** ...
-- Select *Email* from the **Protocol** drop-down.
-- Provide an email address to which you have access during this class.
+`STEP 8:`  Select **Edit**.
 
 `STEP 9:`  Expand the **Access policy** section and replace the existing policy with the below
 - where the three tagged <> sections should use your values; the "<" and ">" are to be removed.
@@ -58,10 +54,19 @@ pre:
 }
 ```
 
-`STEP 10:`  Skip to the bottom of the page and select **Create subscription**.
+## Create an SNS Subscription
+
+`STEP 10:`  Select **Create subscription**.
+
+`STEP 11:`  Under **Details** ...
+- Select *Email* from the **Protocol** drop-down.
+- Provide an email address to which you have access during this class.
+
+
+`STEP 12:`  Skip to the bottom of the page and select **Create subscription**.
 
 ## Confirm your subscription
 
-`STEP 11:`  Open the received email and select **Confirm subscription**.
+`STEP 13:`  Open the received email and select **Confirm subscription**.
 
-`STEP 12:`  Navigate back to the S3 service.
+`STEP 14:`  Navigate back to the S3 service.
