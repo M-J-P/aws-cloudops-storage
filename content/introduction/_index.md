@@ -24,16 +24,18 @@ This chapter will give you a foundational introduction of the AWS Storage servic
     - hosted a static website
     - used S3 event to trigger downstream processes
     - managed bucket objects
-3. Gained a foundational understanding of S3 Glacier
-4. Learned the basics of EFS
+3. Learned the basics of EBS
+    - created a volume
+4. Gained a foundational understanding of S3 Glacier
+5. Learned the basics of EFS
     - created an elastic file system
-5. Learned the basics of FSx
-6. Learned the basics of Storage Gateway
-7. Gained a foundational understanding of AWS Backup
+6. Learned the basics of FSx
+7. Learned the basics of Storage Gateway
+8. Gained a foundational understanding of AWS Backup
     - created a backup vault
     - created a backup plan
-8. Been introduced to AWS Elastic Disaster Recovery
-9. Explained the uses cases and differences between data storage options
+9. Been introduced to AWS Elastic Disaster Recovery
+10. Explained the uses cases and differences between data storage options
 
 <img src='/images/aws-storage.png' width='800px'>
 

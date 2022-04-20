@@ -57,7 +57,7 @@ pre: "<b>1. </b>"
 - Are logical only and don't really exist
 	- example:  https://my-bucket.s3.us-west-2.amazonaws.com/animals/dogs/puppy.png
 	- */animals/dogs* is a logical folder
-	- */animals/dogs/puppy.png* is the **Object**
+	- */animals/dogs/puppy.png* is the **Key**
 - Can be used as a prefix for S3 **Events**
 
 ##### **Metadata**: a set of name-value pairs used to store information regarding the object

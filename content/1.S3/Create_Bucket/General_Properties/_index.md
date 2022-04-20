@@ -51,7 +51,7 @@ pre:
     - Define the Key as "Environment"  
     - Define the Value as "PROD
 
-#### Encyption:
+#### Encryption:
 - Protect your objects by encrypting them via:
     - Amazon S3-managed keys *(SSE-S3)*
     - keys stored in AWS Key Management Service *(SSE-KMS)*
