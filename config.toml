@@ -40,18 +40,24 @@ weight = 10
 name = "<i class='fab fa-linkedin fa-lg'></i> Matthew Patrick"
 identifier = "li0"
 url = "https://www.linkedin.com/in/matthew-patrick-capone/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin fa-lg'></i> Michael Reiber"
+identifier = "li1"
+url = "https://www.linkedin.com/in/michael-reiber-44a09735/"
 weight = 30
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> Utsav Joshi"
-identifier = "li1"
-url = "https://www.linkedin.com/in/joshiutsav/"
+name = "<i class='fab fa-linkedin fa-lg'></i> Prasanth Ponnoth"
+identifier = "li2"
+url = "https://www.linkedin.com/in/prasanthponnoth/"
 weight = 40
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> Bobby Malik"
-identifier = "li2"
-url = "https://www.linkedin.com/in/bobby-malik/"
+name = "<i class='fab fa-linkedin fa-lg'></i> Adrian Tarjoianu"
+identifier = "li3"
+url = "https://www.linkedin.com/in/adriantarjoianu/"
 weight = 50
 
 
