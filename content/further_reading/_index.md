@@ -36,3 +36,5 @@ Collected links to additional good reads:
 - [Amazon EC2 instance root device volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html)
 
 - [SSD vs. HDD: What’s the Difference?](https://iosafe.com/data-protection-topics/ssd-vs-hdd/)
+
+- [Amazon EBS volume types](https://aws.amazon.com/ebs/volume-types/)

@@ -15,7 +15,7 @@ pre:
 
 <img src='/images/file-gateway.png' width='800px'>
 
-- Stores and retrieves objects in Amazon S3
+- Stores and retrieves **objects** in Amazon S3
     - The gateway asynchronously updates the objects in Amazon S3 as files change
     - The key becomes the path
     - Objects are encrypted with Amazon S3–server-side encryption keys (SSE-S3)
@@ -45,20 +45,20 @@ pre:
 
 <img src='/images/volume-gateway.png' width='800px'>
 
-- Provides cloud-backed storage volumes mounted as Internet Small Computer System Interface (iSCSI) devices from on-premises servers.
+- Provides an **iSCSI** (Internet Small Computer System Interface) target, which enables you to create **block storage volumes**
 - Deployed into your on-premises environment as a VM
 
 
 ##### **Cached Volume**
 - Stores data Amazon S3
-- Retains a local copy of **frequently accessed data subsets**
+- Retains a **local copy of frequently accessed data subsets**
 - Offers substantial cost savings on primary storage
 - Minimizes the need to scale on-premises storage
 - Size ranges from 1 GiB to 32 TiB
 
 ##### **Stored Volume**
 - Backs up point-in-time snapshots on Amazon S3
-- Provides low-latency access to the **entire dataset**, which stored locally
+- Retains a **local copy of the entire dataset**, enabling low-latency access
 - Provides durable and inexpensive offsite backups
 - Size ranges from 1 GiB to 16 TiB
 
@@ -66,7 +66,7 @@ pre:
 
 <img src='/images/tape-gateway.png' width='800px'>
 
-- Provides cloud-backed virtual tape storage 
+- Provides cloud-backed **virtual tape storage**
 - Deployed into your on-premises environment as a VM
 
 ##### **Tape Gateway**
@@ -80,7 +80,7 @@ pre:
         - Can have data
         - Size ranges from 100 GiB and 5 TiB.
         - 1,500 tapes per gateway
-    - Virtual tape library (VTL): is like a physical tape library available on-premises with robotic arms and tape drives
+    - **Virtual tape library (VTL)**: is like a physical tape library available on-premises with robotic arms and tape drives
         - Includes the collection of stored virtual tapes
 	- Each Tape Gateway comes with one VTL
         - Created virtual tapes appear in VTL
