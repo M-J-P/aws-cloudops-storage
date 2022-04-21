@@ -19,7 +19,7 @@ pre: "<b>3. </b>"
     - pay for only what is used
 - Use cases:
     - storage for file systems
-    - storage for databases, 
+    - storage for databases
     - storage for any applications that require fine granular updates and access to raw, unformatted, block-level storage
 
 <img src='/images/block-storage.png' width='1000px'>

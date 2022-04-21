@@ -42,8 +42,8 @@ pre: "<b>7. </b>"
 - Behind the curtain, backups are stored on S3 across AWS owned accounts in the same region
 - Protected by AWS KMS encryption key
 - Backups cannot be re-encrypted (ransomeware protection)
-- Provides operational risk protection
-- Provides cyber threat actor protection
+- Provides operational risk protection *(I have a backup)*
+- Provides cyber threat actor protection *(I protect my backups)*
 - Access policies:
     - grant access to users to create backup plans and on-demand backups
     - limit ability to delete recovery points once created.
