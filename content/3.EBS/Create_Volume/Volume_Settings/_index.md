@@ -13,7 +13,7 @@ pre:
 `STEP 6:`  Select **General Purpose SSD (gp-3)** from the drop-down.
 
 #### Size (GiB):
-- Configure how large the volume is:  
+- Configure how large the volume is:
     - General Purpose SSD - 1 GiB (min) and 16 TiB (max)
     - Provisioned IOPS SSD - 4 GiB (min) and 16 TiB (max)
     - Throughput Optimized HDD - 125 GiB (min) and 16 TiB (max)
@@ -23,6 +23,7 @@ pre:
 `STEP 7:`  Enter the minimum size of **1 GiB**.  *(feel free to experiment with numbers)*
 
 #### IOPS:
+The count of the read/write operations per second
 - Configure the requested number of I/O operations per second
     - General Purpose SSD (gp2) - 100 to 16,000 IOPS (proportionate to the size)
     - General Purpose SSD (gp3) - 3,000 to 16,000 IOPS
@@ -34,6 +35,7 @@ pre:
 `STEP 8:`  Enter the minimum size of **3000 IOPS**.  *(feel free to experiment with numbers)*
 
 #### Throughput:
+The measurement of read/write bits per second that are transferred over a network
 - Configure the throughput performance that the volume can support, measured in MiB/s.
     - General Purpose SSD (gp2) - not applicable
     - General Purpose SSD (gp3) - 125 MiB/s (min) to 1000 MiB/s (max)

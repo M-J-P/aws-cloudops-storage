@@ -2,7 +2,7 @@
 title: "Storage Gateway Options"
 chapter: false
 weight: 10
-pre: 
+pre:
 ---
 
 ## Overview
@@ -15,24 +15,24 @@ pre:
 
 <img src='/images/file-gateway.png' width='800px'>
 
-- Stores and retrieves **objects** in Amazon S3
+- Stores and retrieves **objects in Amazon S3**
     - The gateway asynchronously updates the objects in Amazon S3 as files change
     - The key becomes the path
     - Objects are encrypted with Amazon S3–server-side encryption keys (SSE-S3)
 - Uses industry-standard file protocols:
-    - Network File System (NFS)
-    - Server Message Block (SMB)
+    - Network File System (**NFS**)
+    - Server Message Block (**SMB**)
 - Connect through:
     - Connect Direct
     - HTTPS
     - Amazon VPC
 - Optimizes data transfer using multipart parallel uploads or byte-range downloads
 - Local cache is maintained
-    - Provides low latency access to the recently accessed data 
+    - Provides low latency access to the recently accessed data
     - Reduces data egress charges
 
 ##### **Amazon FSx File Gateway**
-- Stores and retrieves objects in Amazon FSx Windows Server
+- Stores and retrieves **objects in Amazon FSx Windows Server**
     - Local file writes and reads benefiting from all the features available on FSx for Windows File Server
     - 1:1 correspondence between the remote and locally visible files
 - Joins with the on-premises Microsoft Active Directory domain
@@ -75,7 +75,7 @@ pre:
     - S3 Glacier Deep Archive
 - Scales seamlessly
 - Core components:
-    - Virtual tape:  is like a physical tape cartridge but is stored in the AWS Cloud. 
+    - Virtual tape:  is like a physical tape cartridge but is stored in the AWS Cloud.
         - Can be blank
         - Can have data
         - Size ranges from 100 GiB and 5 TiB.

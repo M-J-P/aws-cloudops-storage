@@ -7,7 +7,7 @@ pre: "<b>7. </b>"
 
 # AWS Backup
 
-## AWS Backup Defined  
+## AWS Backup Defined
 
 - A centralized service that manages and automates backups across other AWS services
 - Protects storage volumes, databases, and file systems
@@ -24,18 +24,23 @@ pre: "<b>7. </b>"
 
 ## Supported data services
 - Aurora
+- CloudFormation (new)
 - DocumentDB
 - DynamoDB
 - EBS
 - EFS
-- FSx for Lustre
-- FSx for Windows File Server
+- FSx (including Lustre, Windows File Server, ONTAP, and OpenZFS)
 - Neptune
 - RDS
+- Redshift (new)
 - S3
 - Storage Gateway
+- Timestream (new)
 
-## Core Components  
+## Integration with AWS Organizations
+- Used to manage and monitor deployments across multiple accounts
+
+## Core Components
 
 ##### **Vault**: a container that stores and organizes backups
 - A logical construct that lives within the account
@@ -50,7 +55,7 @@ pre: "<b>7. </b>"
 - Vault Lock:
     - prevent delete operations
     - prevent updates that may alter/shorten their retention period
-       
+
 ##### **Plan**: defines when and how to back up AWS resources
 - Assign resources to backup plans
 - Define the backup frequency

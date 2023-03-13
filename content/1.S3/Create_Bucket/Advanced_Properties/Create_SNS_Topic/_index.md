@@ -54,19 +54,21 @@ pre:
 }
 ```
 
+`STEP 10:` Skip to the bottom of the page and select **Save changes**. 
+
 ## Create an SNS Subscription
 
-`STEP 10:`  Select **Create subscription**.
+`STEP 11:`  Upon returning to the *Amazon SNS > Topics > \<YOUR SNS TOPIC\>* page, select **Create subscription**.
 
-`STEP 11:`  Under **Details** ...
+`STEP 12:`  Under **Details** ...
 - Select *Email* from the **Protocol** drop-down.
 - Provide an email address to which you have access during this class.
 
 
-`STEP 12:`  Skip to the bottom of the page and select **Create subscription**.
+`STEP 13:`  Skip to the bottom of the page and select **Create subscription**.
 
 ## Confirm your subscription
 
-`STEP 13:`  Open the received email and select **Confirm subscription**.
+`STEP 14:`  Open the received email and select **Confirm subscription**.
 
-`STEP 14:`  Navigate back to the S3 service.
+`STEP 15:`  Navigate back to the S3 service.

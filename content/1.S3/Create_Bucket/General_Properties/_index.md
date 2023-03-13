@@ -39,27 +39,27 @@ pre:
 - Used to preserve, retrieve, and restore every version of every object stored in your Amazon S3 bucket
 - Versioning is often required for additional bucket capabilities *(e.g. Life Cycle Policies, Backups)*
 
-`STEP 12:`  Toggle this radio button under **Bucket Versioning**.  
-    - Leave it on *enabled*.
+`STEP 12:`  Toggle this radio button under **Bucket Versioning**.
+- Leave it on *enabled*.
 
 #### Tags:
 - Define tags to categorize your bucket for discovery, analysis, and/or cost tracking
 - Some labeling examples include:  by project, by owner, by application, by environment, by sensitivity
 - Uses key-value pairs
 
-`STEP 13:`  Select Add Tag under **Tags**.  
-    - Define the Key as "Environment"  
-    - Define the Value as "PROD
+`STEP 13:`  Select Add Tag under **Tags**.
+- Define the Key as "Environment"
+- Define the Value as "PROD
 
 #### Encryption:
 - Protect your objects by encrypting them via:
     - Amazon S3-managed keys *(SSE-S3)*
     - keys stored in AWS Key Management Service *(SSE-KMS)*
 
-`STEP 14:`  Toggle this radio button under **Default encryption**.  
-    - Leave it on *Enable*.  
-    - Leave the encryption type as *Amazon S3-managed keys (SSE-S3)*  
-        - *(but feel free to play around)*
+`STEP 14:`  Toggle the radio buttons under **Default encryption**.
+- Leave the encryption type as *Amazon S3-managed keys (SSE-S3)*
+    - *(but feel free to play around)*
+- Leave it on *Enable*.
 
 #### Object Lock:
 - Store objects using a write-once-read-many *(WORM)* model
