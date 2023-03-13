@@ -7,7 +7,7 @@ pre: "<b>1. </b>"
 
 # Simple Storage Service
 
-## Amazon S3 Defined  
+## Amazon S3 Defined
 
 - Amazon Simple Storage Service is an object storage service that offers:
     - scalability
@@ -24,23 +24,23 @@ pre: "<b>1. </b>"
     - IoT devices
     - big data analytics
 
-## Core Components  
+## Core Components
 
-##### **Bucket**: a container for objects  
-- Has a globally unique name  
+##### **Bucket**: a container for objects
+- Has a globally unique name
     - **Virtual Hosted Style**:
-        - general:  https://bucket-name.s3.Region.amazonaws.com/key-name  
-	- example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
-    - **Path Style** (to be deprecated):
-        - general:  https://s3.Region.amazonaws.com/bucket-name/key-name  
-	- example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
+        - general:  https://bucket-name.s3.Region.amazonaws.com/key-name
+        - example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
     - **S3 Style** (via some S3 services)
         - general:  S3://bucket-name/key-name
-	- example:  S3://mybucket/puppy.jpg
+        - example:  S3://mybucket/puppy.jpg
+    - **Path Style** (to be deprecated):
+        - general:  https://s3.Region.amazonaws.com/bucket-name/key-name
+        - example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
 - Service quota defaults:
-    - 100 buckets per account  
+    - 100 buckets per account
     - no limit to objects within a bucket
-       
+
 ##### **Object**: a file and any metadata that describes the file
 - Has a **Key**
     - the name assigned to an object
@@ -55,11 +55,25 @@ pre: "<b>1. </b>"
 
 ##### **Folders**
 - Are logical only and don't really exist
-	- example:  https://my-bucket.s3.us-west-2.amazonaws.com/animals/dogs/puppy.png
-	- */animals/dogs* is a logical folder
-	- */animals/dogs/puppy.png* is the **Key**
-- Can be used as a prefix for S3 **Events**
+    - example:  https://my-bucket.s3.us-west-2.amazonaws.com/animals/dogs/puppy.png
+        - *animals* is a logical folder
+        - *dogs* is a logical folder
+        - */animals/dogs/puppy.png* is the **Key**
+
+##### **Prefixes**
+- Are strings preceding the object name
+    - example:  https://my-bucket.s3.us-west-2.amazonaws.com/animals/dogs/puppy.png
+        - */animals* is a prefix
+        - */animals/dogs* is a prefix
+- Are used to improve performance by creating partitions
+- Can be used as part of S3 **Events**
 
 ##### **Metadata**: a set of name-value pairs used to store information regarding the object
-- User-defined metadata by customers
 - System-metadata by AWS
+    - Examples:
+        - Content-Length
+        - Content-Type
+        - Last-Modified
+        - x-amz-storage-class
+        - x-amz-server-side-encryption
+- User-defined metadata by customers

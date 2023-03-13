@@ -8,7 +8,7 @@ pre:
 ## Management of an S3 Bucket
 
 #### Lifecycle Rules:
-1. Manage objects throughout their lifecycle so that they are stored cost effectively.
+1. Manage objects throughout their lifecycle so that they are stored cost effectively
 2. A set of rules that define actions:
     - transition actions:  move objects to a less expensive storage class after a certain period of time
     - expiration actions:  delete objects after a certain period of time
@@ -71,8 +71,8 @@ pre:
 
 `STEP 40`  Under **Storage class** change the storage class to *One Zone-IA*.
 
-`STEP 41`  At the bottom of the page, select **Create replication**.
-- Choose "No" when prompted for a one-time batch operation and select **Submit**.
+`STEP 41`  At the bottom of the page, select **Save**.
+- If prompted for a one-time batch operation, chose "No" and select **Submit**.
 - Notice the auto-created IAM role.
 
 `STEP 42:`  Return to the **Management** tab for this bucket and notice the existing rules.

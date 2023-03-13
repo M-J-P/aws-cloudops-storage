@@ -7,10 +7,10 @@ pre: "<b>3. </b>"
 
 # Elastic Block Storage
 
-## Amazon EBS Defined  
+## Amazon EBS Defined
 
-- Provides block level storage volumes 
-- Raw, unformatted block devices. 
+- Provides block level storage volumes
+- Raw, unformatted block devices.
 - Can mount to EC2 instances.
     - unattached volumes persist independently from the EC2 instance. You can create a file system on top of these volumes, or use them in any way you would use a block device (such as a hard drive). You can dynamically change the configuration of a volume attached to an instance.
 - Benefits:
@@ -40,4 +40,4 @@ pre: "<b>3. </b>"
     - if an instance is stopped or terminated, any data on instance store volumes is lost; a reboot still persists the data
     - created from a template stored in Amazon S3
 - A **Snapshot** is a point in time backup of specific volume
-    - can be encrypted at anytime
+    - can be encrypted whilst creating a copy of a non-encrypted snapshot

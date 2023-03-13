@@ -9,7 +9,7 @@ pre: "<b>8. </b>"
 
 ## Amazon DRS
 
-- A service that minimizes downtime and data lossof on-premises and cloud-based applications
+- A service that minimizes downtime and data loss of on-premises and cloud-based applications
 - Used to increase IT resilience
     - Configure replication and launch settings
     - Monitor data replication

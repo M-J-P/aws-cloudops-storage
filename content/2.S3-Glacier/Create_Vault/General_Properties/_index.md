@@ -16,8 +16,6 @@ pre:
 
 `STEP 6:`  Provide a *Vault Name*.
 
-`STEP 7:`  Select **Next Step**.
-
 #### Notifications:
 - Messages sent when an S3 Glacier job completes
 - Sent via the Amazon Simple Notification Service *(SNS)*
@@ -25,16 +23,16 @@ pre:
     - archive retrieval
     - vault inventory retrieval
 
-`STEP 8:`  Select the radio button for *Enable notifications and use an existing SNS topic*.
+`STEP 7:`  Select the radio button for *Turn on notifications*.
 
-`STEP 9:`  Select **Next Step**.
-
-`STEP 10:`  Under **Event Notifications Details** ...
+`STEP 8:`  Under **Event notifications settings** ...
 - For **Amazon SNS Topic ARN** feel free to use the previously created SNS topic ARN or create a new one.
+
+`STEP 9:`  Under **Events** ...
 - Select the checkbox for **Archive Retrieval Job Complete**.
 - Select the checkbox for **Vault Inventory Retrieval Job Complete**.
 
-`STEP 11:`  Select **Next Step** and then **Submit**.
+`STEP 10:`  Select **Create Vault**.
 
 #### Tags:
 - Define tags to categorize your bucket for discovery, analysis, and/or cost tracking

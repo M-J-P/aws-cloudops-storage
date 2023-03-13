@@ -29,8 +29,7 @@ pre:
 - Provides a record of actions *(events)* taken by a user, role, or an AWS service in Amazon S3
 - Can enable continuous delivery of CloudTrail events to an Amazon S3 bucket
 
-#### Event Notifications:
-- Send a notification message to a destination whenever those events occur:
+#### Event Notifications: - Send a notification message to a destination whenever those events occur:
     - Amazon SNS
     - Amazon SQS
     - Lambda
@@ -48,7 +47,7 @@ pre:
 
 `STEP 19:`  Follow the instructions in the next sub-section:  **Create an SNS Topic**
 
-`STEP 20:`  Select **Create event notification**.
+`STEP 20:`  Upon returning to the *Amazon S3 > Buckets > \<YOUR BUCKET\>* page, select **Create event notification**.
 
 `STEP 21:`  Under **General configuration** ...
 - Provide an **Event name**
@@ -66,7 +65,7 @@ pre:
 
 `STEP 24:`  Skip to the bottom of the page and select **Save changes**.
 
-`STEP 25:`  Upload a file with a ".txt" extension to the S3 bucket.  Was a notification received?
+`STEP 25:`  Upon returning to the *Amazon S3 > Buckets > \<YOUR BUCKET\>* page, upload a file with a ".txt" extension to your S3 bucket.  Was a notification received?
 - Navigate to the **Objects** tab.
 - Select **Upload**.
 - Select **Add files**.
@@ -87,6 +86,11 @@ pre:
     - customers uploading to a centralized bucket from all over the world
     - transfering gigabytes to terabytes of data on a regular basis across continents
 
+#### Object Lock:
+- Protect actions from deletion or overwrite using a WORM *(write once, read many)* model
+- Define a set period of time or extend indefinitely
+- Can only be applied at the time of S3 bucket creation
+
 #### Requester Pays:
 - The requester pays for requests and data transfer costs
 - Anonymous access to this bucket is disabled
@@ -95,12 +99,12 @@ pre:
 - Hosts a static website, where individual webpages include static content
 - May also contain client-side script *(but not server-side scripts)*
 - Website endpoints *(format varies per region)*
-    - s3-website dash (-) Region ‐ `http://bucket-name.s3-website-Region.amazonaws.com`
-    - s3-website dot (.) Region ‐ `http://bucket-name.s3-website.Region.amazonaws.com`
+    - s3-website dash *(-Region)* ‐ `http://bucket-name.s3-website-Region.amazonaws.com`
+    - s3-website dot *(.Region)* ‐ `http://bucket-name.s3-website.Region.amazonaws.com`
 - Add a DNS CNAME to map a registered domain *(e.g. `http://www.example-bucket.com`)* to the bucket
 - Create an index document to specify the home or default page of the website
     - `index.html`
 - Create an error document to handle errors
     - `error.html`
 
-`STEP 27:`  Follow the instructions in the next sub-section:  **Create a Static Website**
+`OPTIONAL:`  Follow the instructions in the next sub-section:  **Create a Static Website**
