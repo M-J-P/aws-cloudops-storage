@@ -24,6 +24,6 @@ We'll have instructor-led sessions to make sure everyone can to get through the 
 <br>
 Your Tourguides:
 
-| ![Matthew Patrick](/images/pamatthew.png?height=250px&classes=shadow,border) | ![Michael Reiber](/images/remichael.png?height=250px&classes=shadow,border) | ![Prasanth Ponnoth](/images/poprasanth.png?height=250px&classes=shadow,border) | ![Adrian Tarjoianu](/images/taadrian.png?height=250px&classes=shadow,border) |
+| ![Matthew Patrick](/images/pamatthew.png?height=250px&classes=shadow,border) | ![Mohamed Ben Rabaa](/images/bemohamed.png?height=250px&classes=shadow,border) | ![Shanda Miller](/images/mishanda.png?height=250px&classes=shadow,border) | ![Eric Widjaja](/images/wieric.png?height=250px&classes=shadow,border) |
 |----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
-| <center>Matthew Patrick<br>Senior Manager, Capital One<br>Richmond, Virginia</center> | <center>Michael Reiber<br>Senior Storage Solutions Architect, AWS<br>New York, New York</center> | <center>Prasanth Ponnoth<br>Senior Solutions Architect, AWS<br>New York, New York</center> | <center>Adrian Tarjoianu<br>Solutions Architect, AWS<br>New York, New York</center> |
+| <center>Matthew Patrick<br>Senior Manager, Capital One<br>Richmond, Virginia</center> | <center>Mohamed Ben Rabaa<br>Cloud Technical Account Manager, AWS<br>New York, New York</center> | <center>Shanda Miller<br>Cloud Technical Account Manager, AWS<br>Brooklyn, New York</center> | <center>Eric Widjaja<br>Associate Cloud Technical Account Manager, AWS<br>New York, New York</center> |

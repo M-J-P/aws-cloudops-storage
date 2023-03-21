@@ -43,22 +43,16 @@ url = "https://www.linkedin.com/in/matthew-patrick-capone/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> Michael Reiber"
+name = "<i class='fab fa-linkedin fa-lg'></i> Shanda Miller"
 identifier = "li1"
-url = "https://www.linkedin.com/in/michael-reiber-44a09735/"
+url = "https://www.linkedin.com/in/leshanda-miller/"
 weight = 30
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> Prasanth Ponnoth"
+name = "<i class='fab fa-linkedin fa-lg'></i> Eric Widjaja"
 identifier = "li2"
-url = "https://www.linkedin.com/in/prasanthponnoth/"
+url = "https://www.linkedin.com/in/eric-widjaja/"
 weight = 40
-
-[[menu.shortcuts]]
-name = "<i class='fab fa-linkedin fa-lg'></i> Adrian Tarjoianu"
-identifier = "li3"
-url = "https://www.linkedin.com/in/adriantarjoianu/"
-weight = 50
 
 
 
