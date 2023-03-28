@@ -48,7 +48,7 @@ The measurement of read/write bits per second that are transferred over a networ
 
 #### Availability Zone:
 - The AZ in which to create the volume
-- Can only be attached to instances that are in the same Availability Zone
+- Can only be attached to instances that are in the same AZ
 
 `STEP 10:`  Select **us-east-1a** from the drop-down.
 
