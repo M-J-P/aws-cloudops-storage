@@ -24,7 +24,7 @@ pre:
 
 #### IOPS:
 - The count of the read/write operations per second  
-  - Configure the requested number of I/O operations per second
+- Configure the requested number of I/O operations per second
     - General Purpose SSD (gp2) - 100 to 16,000 IOPS (proportionate to the size)
     - General Purpose SSD (gp3) - 3,000 to 16,000 IOPS
     - Provisioned IOPS SSD - 100 to 64,000 IOPS
@@ -36,7 +36,7 @@ pre:
 
 #### Throughput: 
 - The measurement of read/write bits per second that are transferred over a network  
-  - Configure the throughput performance that the volume can support, measured in MiB/s.
+- Configure the throughput performance that the volume can support, measured in MiB/s.
     - General Purpose SSD (gp2) - not applicable
     - General Purpose SSD (gp3) - 125 MiB/s (min) to 1000 MiB/s (max)
     - Provisioned IOPS SSD - not applicable
