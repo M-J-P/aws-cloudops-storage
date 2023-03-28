@@ -1,7 +1,7 @@
 languageCode = "en-us"
 ignoreFiles = [ "\\.files/README.md$",  ]
 defaultContentLanguage = "en"
-title = "Amazon CloudOps Linux Workshop"
+title = "Amazon CloudOps Storage Workshop"
 theme = "learn"
 uglyurls = true
 sectionPagesMenu = "main"
@@ -14,7 +14,7 @@ hrefTargetBlank = true
 themeVariant = "mine"
 showVisitedLinks = true
 author = "Matthew Patrick, John Dixon, Utsav Joshi, Bobby Malik"
-description = "Amazon CloudOps Linux Workshop"
+description = "Amazon CloudOps Storage Workshop"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
