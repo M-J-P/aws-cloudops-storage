@@ -36,7 +36,7 @@ pre: "<b>1. </b>"
         - example:  S3://mybucket/puppy.jpg
     - **Path Style** (to be deprecated):
         - general:  https://s3.Region.amazonaws.com/bucket-name/key-name
-        - example:  https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
+        - example:  https://s3.us-west-2.amazonaws.com/my-bucket/puppy.png
 - Service quota defaults:
     - 100 buckets per account
     - no limit to objects within a bucket

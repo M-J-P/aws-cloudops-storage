@@ -49,11 +49,12 @@ pre:
     - filter by prefix
     - filter by tag
 4. Preserve encryption if desired
-5. Uses cases:
-    - Replicate objects while retaining metadata
-    - Replicate objects into different storage classes
-    - Maintain object copies under different ownership
-    - Keep objects stored over multiple AWS Regions
+5. Choose a destination storage class
+6. Additional replication options:
+    - Replication Time Control *(RTC)*
+    - Replication metrics with S3 RTC
+    - Delete marker replication
+    - Replica modification sync
 
 `STEP 34:`  Navigate back to the Buckets Dashboard and create a new bucket in a different region than the existing one.
 - When creating the new bucket, copy the settings from the first bucket.
