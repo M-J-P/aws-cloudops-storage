@@ -54,7 +54,12 @@ pre:
 #### Encryption:
 - Protect your objects by encrypting them via:
     - Amazon S3-managed keys *(SSE-S3)*
-    - keys stored in AWS Key Management Service *(SSE-KMS)*
+    - Keys stored in AWS Key Management Service *(SSE-KMS)*
+        - more control over the key
+        - provides an audit trail when used 
+    - Dual layers of object-level encryption *(DSSE-KMS)*
+        - satisfies compliance requirements for highly regulated customers
+        - higher costs
 
 `STEP 14:`  Toggle the radio buttons under **Default encryption**.
 - Leave the encryption type as *Amazon S3-managed keys (SSE-S3)*

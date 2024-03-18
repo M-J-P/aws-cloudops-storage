@@ -30,7 +30,7 @@ pre:
 #### Bucket policy:
 1. Applies ONLY to bucket to which it's attached
 2. Provides access to the objects stored in the bucket
-3. Don't apply to objects owned by other accounts
+3. Does not apply to objects owned by other accounts
 4. Elements:
     - Principal – The account or user who is allowed access to the **actions** and **resources** in the statement
     - Effect – What the effect will be:  **allow** or **deny**

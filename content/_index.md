@@ -25,5 +25,6 @@ We'll have instructor-led sessions to make sure everyone can to get through the 
 Your Tourguides:
 
 | ![Matthew Patrick](/images/pamatthew.png?height=250px&classes=shadow,border) | ![Mohamed Ben Rabaa](/images/bemohamed.png?height=250px&classes=shadow,border) | ![Shanda Miller](/images/mishanda.png?height=250px&classes=shadow,border) | ![Eric Widjaja](/images/wieric.png?height=250px&classes=shadow,border) |
-|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
-| <center>Matthew Patrick<br>Senior Manager, Capital One<br>Richmond, Virginia</center> | <center>Mohamed Ben Rabaa<br>Cloud Technical Account Manager, AWS<br>New York, New York</center> | <center>Shanda Miller<br>Cloud Technical Account Manager, AWS<br>Brooklyn, New York</center> | <center>Eric Widjaja<br>Associate Cloud Technical Account Manager, AWS<br>New York, New York</center> |
+|-------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
+| <font color="#FFFFFF">=================|<font color="#FFFFFF">====================|<font color="#FFFFFF">====================|<font color="#FFFFFF">====================|
+| <center>Matthew Patrick<br>Director, Capital One<br>Richmond, Virginia</center> | <center>Mohamed Ben Rabaa<br>Cloud Technical Account Manager, AWS<br>New York, New York</center> | <center>Shanda Miller<br>Cloud Technical Account Manager, AWS<br>Brooklyn, New York</center> | <center>Eric Widjaja<br>Associate Cloud Technical Account Manager, AWS<br>New York, New York</center> |

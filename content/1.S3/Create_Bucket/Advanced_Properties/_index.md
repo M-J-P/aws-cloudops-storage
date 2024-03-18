@@ -19,6 +19,7 @@ pre:
 
 #### Intelligent-Tiering Configuration:
 - Set optimization for objects that will be rarely accessed for long periods of time
+- Involves a small monthly object monitoring and automation fee
 
 #### Server Access Logging:
 - Provides detailed records for the requests that are made to a bucket
@@ -27,6 +28,7 @@ pre:
 
 #### AWS CloudTrail data events:
 - Provides a record of actions *(events)* taken by a user, role, or an AWS service in Amazon S3
+    - Events are Amazon S3 API operations performed in the bucket
 - Can enable continuous delivery of CloudTrail events to an Amazon S3 bucket
 
 #### Event Notifications: - Send a notification message to a destination whenever those events occur:
@@ -89,7 +91,6 @@ pre:
 #### Object Lock:
 - Protect actions from deletion or overwrite using a WORM *(write once, read many)* model
 - Define a set period of time or extend indefinitely
-- Can only be applied at the time of S3 bucket creation
 
 #### Requester Pays:
 - The requester pays for requests and data transfer costs
