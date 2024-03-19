@@ -23,26 +23,26 @@ weight: 40
 
 #### Durability Math Example for 99.999%
 - 99.999% = 0.99999
--
+
 - 1 - 0.99999 = 0.00001 *(representing object loss)*
--
+
 - 0.00001 is one one-hundred thousandth, or 1 in 100,000
--
+
 - 1 object loss in 100,000 years
 
 #### Availability Math Example for 99.999%
 - 99.999% = 0.99999
--
+
 - 1 - 0.99999 = 0.00001 *(representing data non-availability)*
-- 
+
 - 365 days x 24 hours x 60 minutes x 60 = 31,536,000 seconds *(number of seconds in one year)*
--
+
 - 0.00001 x 31,536,000 seconds = 315.36 seconds
--
+
 - 315.36 seconds / 60 = 5.256 minutes
--
+
 - 0.256 x 60 ≈ 15 seconds
--
+
 - 5 minutes and 15 seconds of non-availability in one year
 
 {{% children showhidden="false" %}}
