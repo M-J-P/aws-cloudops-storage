@@ -1,7 +1,7 @@
 ---
 title: "Storage Types"
 draft: false
-weight: 40
+weight: 30
 ---
 
 #### Storage Types
