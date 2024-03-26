@@ -8,7 +8,7 @@ pre:
 ## Overview
 
 - Four widely used options
-- Choosing the righ system is typically driven by:
+- Choosing the right system is typically driven by:
     - an existing familiarity with a given file system
     - matching the requirements of the workload
         - features

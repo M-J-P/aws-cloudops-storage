@@ -13,6 +13,8 @@ pre: "<b>3. </b>"
 - Raw, unformatted block devices.
 - Can mount to EC2 instances.
     - unattached volumes persist independently from the EC2 instance. You can create a file system on top of these volumes, or use them in any way you would use a block device (such as a hard drive). You can dynamically change the configuration of a volume attached to an instance.
+- Not encrypted by default; however this configuration can be changed
+- Cannot encrypt if initially created as unencrypted
 - Benefits:
     - quickly accessible data
     - long-term persistence
@@ -24,20 +26,21 @@ pre: "<b>3. </b>"
 
 <img src='/images/block-storage.png' width='1000px'>
 
-## Volume vs. Instance Store vs. Snapshot
+## Root Volume vs. Attached Volume vs. Snapshot
 
-- An **EBS Volume** is the underlying disk behind EC2
-    - long-term persistence
-    - can be unmounted and remounted from EC2s
+- An **EBS Root Volume** is the underlying disk behind EC2
+    - launched from either an instance store-backed AMI or an Amazon EBS-backed AMI (faster)
+    - by default, is deleted when the EC2 instance is terminated
     - replicated within its availability zone, providing high availability and durability
+    - can be unmounted and remounted from EC2s only after the instance is stopped
     - can create a snapshot from it
-    - faster launch time
-    - can only be encrypted at creation
-    - created from an EBS snapshot via the AMI (root volume)
-- An **Instance Store** is ephemeral storage that provides temporary block level storage for an EC2 instance
-    - fastest access to data
-    - accesses storage from disks that are physically attached to the host computer
-    - if an instance is stopped or terminated, any data on instance store volumes is lost; a reboot still persists the data
-    - created from a template stored in Amazon S3
+    - up to 16 TiB
+- An **EBS Attached Volume** is additional disk to provide more storage to an EC2 instance
+    - added at the time of EC2 creation or can be added later
+    - long-term persistence
+    - replicated within its availability zone, providing high availability and durability
+    - can be unmounted and remounted from EC2s
+    - can create a snapshot from it
+    - up to 64 TiB
 - A **Snapshot** is a point in time backup of specific volume
     - can be encrypted whilst creating a copy of a non-encrypted snapshot
