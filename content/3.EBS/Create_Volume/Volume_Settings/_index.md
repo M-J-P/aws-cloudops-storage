@@ -15,7 +15,7 @@ pre:
 #### Size (GiB):
 - Configure how large the volume is:
     - General Purpose SSD - 1 GiB (min) and 16 TiB (max)
-    - Provisioned IOPS SSD - 4 GiB (min) and 16 TiB (max)
+    - Provisioned IOPS SSD - 4 GiB (min) and 64 TiB (max)
     - Throughput Optimized HDD - 125 GiB (min) and 16 TiB (max)
     - Cold HDD - 125 GiB (min) and 16 TiB (max)
     - Magnetic - 1 GiB (min) and 1 TiB (max)
@@ -24,12 +24,12 @@ pre:
 
 #### IOPS: (count of read/write operations per second)
 - Configure the requested number of I/O operations per second
-    - General Purpose SSD (gp2) - 100 to 16,000 IOPS (proportionate to the size)
+    - General Purpose SSD (gp2) - baseline of 3 IOPS per GiB; 100 IOPS (min); burstable to 3000 IOPS
     - General Purpose SSD (gp3) - 3,000 to 16,000 IOPS
-    - Provisioned IOPS SSD - 100 to 64,000 IOPS
+    - Provisioned IOPS SSD - 100 to 256,000 IOPS
     - Throughput Optimized HDD - performance is measured in throughput (MiB/s)
     - Cold HDD - performance is measured in throughput (MiB/s)
-    - Magnetic - 100 IOPS on average; burstable
+    - Magnetic - not applicable
 
 `STEP 8:`  Enter the minimum size of **3000 IOPS**.  *(feel free to experiment with numbers)*
 

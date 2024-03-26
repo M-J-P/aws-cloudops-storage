@@ -5,7 +5,7 @@ weight: 10
 ---
 
 {{% notice info%}}
-Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) and update your progress as you go through the workshop! Also add yourself to the #storage Slack channel: [Join here](https://join.slack.com/share/zt-minfdvox-CmVuqFaWSGYuhoFITPeRNQ)
+Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1uWdf_sUDkg-DqW6ELK3SKRx8DTlP_EP05di6hkLjIgA/edit?usp=sharing) and update your progress as you go through the workshop! Also add yourself to the #storage Slack channel: [Join here](https://join.slack.com/share/zt-minfdvox-CmVuqFaWSGYuhoFITPeRNQ)
 {{% /notice%}}
 
 Welcome to the Amazon CloudOps Storage Workshop!

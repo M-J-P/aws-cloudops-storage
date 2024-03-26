@@ -26,6 +26,27 @@ pre:
 
 `STEP 9:`  Deselect the *Enable automatic backups* checkbox.
 
+#### Encyption:
+- Protect EFS data by encrypting it via:
+    - Amazon EFS-managed keys *(aws/elasticfilesystem)*, which is the default
+    - custom Keys stored in AWS Key Management Service
+- Enable encryption of data at rest when creating an Amazon EFS file system
+- Enable encryption of data in transit when mounting the file system
+
+`STEP 10:`  Leave the *Enable encryption of data at rest* checkbox selected.
+
+#### Throughput Mode:
+- Enhanced
+    - Elastic:
+        - for spiky or unpredictable workloads and performance requirements that are difficult to forecast
+        - is the default mode
+    - Provisioned 
+        - for when the workload's performance requirements are known
+        - throughput fixed at specified amount
+        - for applications that have a relatively constant throughput
+- Bursting
+    - for throughput that scales with file system size
+
 #### Performance Mode:
 - General Purpose
     - recommended
@@ -37,25 +58,7 @@ pre:
     - has higher per-operation latencies
 - Cannot change the performance mode once it is created
 
-#### Throughput Mode:
-- Bursting
-    - throughput scales with file system size
-    - for traditional applications that have a bursty throughput pattern
-    - is the default mode
-- Provisioned
-    - throughput fixed at specified amount
-    - for applications that have a relatively constant throughput
-
-`STEP 10:`  Leave the existing **Performance mode** and **Throughput mode** as is.
-
-#### Encyption:
-- Protect EFS data by encrypting it via:
-    - Amazon EFS-managed keys *(aws/elasticfilesystem)*, which is the default
-    - custom Keys stored in AWS Key Management Service
-- Enable encryption of data at rest when creating an Amazon EFS file system
-- Enable encryption of data in transit when mounting the file system
-
-`STEP 11:`  Leave the *Enable encryption of data at rest* checkbox selected.
+`STEP 11:`  Leave the existing **Performance mode** and **Throughput mode** as is.
 
 #### Tags:
 - Define tags to categorize your bucket for discovery, analysis, and/or cost tracking

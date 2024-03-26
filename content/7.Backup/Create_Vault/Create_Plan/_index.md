@@ -41,7 +41,7 @@ pre:
     - **Complete within**: period in which the backup should complete (marked as *Expired* if they don't)
 
 `STEP 15:`  Select the *Customize backup window* radio button
-- Enter a **Start time** of *01:30 AM UTC*.
+- Enter a **Start time** of *01:30 America/New_York (UTC-04:00)*.
 - Select *2 hours* from the **Start within** drop-down.
 - Select *3 days* from the **Complete within** drop-down.
 

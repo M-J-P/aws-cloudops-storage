@@ -13,7 +13,7 @@ pre:
 `STEP 7:`  Type the name of the vault.  Let's go with "EBS-Vault."
 
 #### Encryption Key:
-- Add a layer of encryption to the vault
+- Add a default encryption to the vault that protects backups when no other key is defined on the source data
 
 `STEP 8:`  Select *(default) aws/backup* from the drop-down.
 
