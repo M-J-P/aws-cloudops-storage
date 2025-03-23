@@ -41,4 +41,4 @@ This chapter will give you a foundational introduction of the AWS Storage servic
 
 Please move on to the next section to begin.
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}

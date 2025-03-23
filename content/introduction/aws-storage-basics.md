@@ -8,4 +8,4 @@ weight: 20
 
 <img src='/images/storage-basics-2.png' width='1000px'>
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}

@@ -16,8 +16,10 @@ weight: 40
 - **Durability** is a level that corresponds to an average annual expected loss of an object
     - AWS storage services focus more around durability for customers’ critical data
     - Example:  if 10,000 objects are stored with Amazon S3 (11 9's), one can on average expect to incur a loss of a single object once every 10,000,000 years
+    - Data durability can be reduced by factors such as hardware failures, natural disasters, human errors, cybersecurity threats, software glitches, and the lack of proper data governance and validation practices. 
 - **Availability** is the percentage of time a network component or service is accessible to a user in a given period, usually defined as a year
     - Most AWS services offer between 3-5 9's of availability SLA (Route 53 is 100%)
+    - Several factors can reduce data availability, including hardware failures, network issues, software problems, security breaches, and poor data management practices.
 
 <img src='/images/avail-vs-dur.png' width='1000px'>
 
@@ -45,4 +47,4 @@ weight: 40
 
 - 5 minutes and 15 seconds of non-availability in one year
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}

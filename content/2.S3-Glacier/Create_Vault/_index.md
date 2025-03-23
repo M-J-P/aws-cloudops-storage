@@ -23,5 +23,5 @@ policies can be applied.
 
 #### Please move on to the next sections to continue.
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}
 
