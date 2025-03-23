@@ -26,5 +26,5 @@ through Access Control Lists (ACLs), Bucket Policies, and encryption.  Finally, 
 
 #### Please move on to the next sections to continue.
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}
 

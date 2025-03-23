@@ -10,4 +10,4 @@ weight: 30
 <img src='/images/storage-types.png' width='1000px'>
 
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}

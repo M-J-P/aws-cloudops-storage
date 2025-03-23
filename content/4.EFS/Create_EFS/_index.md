@@ -21,5 +21,5 @@ Again, we'll use the `us-east-1` region for this exercise.
 
 #### Please move on to the next sections to continue.
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}
 

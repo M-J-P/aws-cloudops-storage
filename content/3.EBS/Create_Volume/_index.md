@@ -20,5 +20,5 @@ In this tutorial, you'll create an Amazon EBS (Elastic Block Store) volume in th
 
 #### Please move on to the next sections to continue.
 
-{{% children showhidden="false" %}}
+{{% children showhidden="false" /%}}
 
