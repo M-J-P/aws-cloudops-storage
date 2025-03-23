@@ -7,7 +7,7 @@ pre:
 
 ## Advanced Properties of an S3 Bucket
 
-`STEP 16:`  From the Buckets dashboard, notice the **AWS Region** and **Access** for the newly created bucket.
+`STEP 16:`  From the Buckets dashboard, notice the **AWS Region** for the newly created bucket.
 
 #### **SAMPLES**
 
