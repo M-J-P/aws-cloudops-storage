@@ -21,7 +21,7 @@ through Access Control Lists (ACLs), Bucket Policies, and encryption.  Finally, 
 1. Login to the AWS Console
 2. Select the `us-east-1` region
 3. Navigate to the S3 service
-4. Select `Buckets` from the left-hand menu
+4. Select `General purpose buckets` from the left-hand menu
 5. Select `Create Bucket`
 
 #### Please move on to the next sections to continue.
