@@ -29,13 +29,21 @@ pre: "<b>3. </b>"
 ## Root Volume vs. Attached Volume vs. Snapshot
 
 - An **EBS Root Volume** is the underlying disk behind EC2
-    - launched from either an instance store-backed AMI or an Amazon EBS-backed AMI (faster)
+    - launched from either an Amazon instance store-backed AMI or an Amazon EBS-backed AMI
+        - Amazon instance store-backed AMI
+            - created from a template stored in Amazon S3
+            - supported for Linux AMIs only
+        - Amazon EBS-backed AMI
+            - created from an Amazon EBS snapshot
+            - supported for both Linux and Windows AMIs
+            - faster boot time
+        -  [Comparison of AMI types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ComponentsAMIs.html)
     - by default, is deleted when the EC2 instance is terminated
     - replicated within its availability zone, providing high availability and durability
     - can be unmounted and remounted from EC2s only after the instance is stopped
     - can create a snapshot from it
     - up to 16 TiB
-- An **EBS Attached Volume** is additional disk to provide more storage to an EC2 instance
+- An **EBS Attached (a.k.a. Data) Volume** is additional disk to provide more storage to an EC2 instance
     - added at the time of EC2 creation or can be added later
     - long-term persistence
     - replicated within its availability zone, providing high availability and durability

@@ -37,7 +37,14 @@ pre:
     - performance in terms of throughput rather than IOPS
     - least expensive
     - Uses cases:
-        - stoarge for infrequently accessed data
+        - storage for infrequently accessed data
+        - sequenital workloads
+
+- **Magnetic volumes (standard)**
+    - previous generation storage
+    - Uses cases:
+        - storage for infrequently accessed data
+        - less demanding workloads
 
 <img src='/images/ebs-volume-types.png' width='1000px'>
 

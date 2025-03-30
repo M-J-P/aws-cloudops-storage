@@ -27,8 +27,8 @@ pre:
     - General Purpose SSD (gp2) - baseline of 3 IOPS per GiB; 100 IOPS (min); burstable to 3000 IOPS
     - General Purpose SSD (gp3) - 3,000 to 16,000 IOPS
     - Provisioned IOPS SSD - 100 to 256,000 IOPS
-    - Throughput Optimized HDD - performance is measured in throughput (MiB/s)
-    - Cold HDD - performance is measured in throughput (MiB/s)
+    - Throughput Optimized HDD - not applicable; performance is measured in throughput (MiB/s)
+    - Cold HDD - not applicable; performance is measured in throughput (MiB/s)
     - Magnetic - not applicable
 
 `STEP 8:`  Enter the minimum size of **3000 IOPS**.  *(feel free to experiment with numbers)*
@@ -57,7 +57,7 @@ pre:
 
 #### Encryption:
 
-`STEP 12:`  Select the *Encrypt this volume* checkbox.
+`STEP 12:`  Select the *Encrypt this volume* checkbox and the default key of *aws/ebs*.
 
 #### Tags:
 - Additional labels using key/value pairs.
