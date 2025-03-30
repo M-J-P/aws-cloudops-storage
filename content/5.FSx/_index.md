@@ -20,3 +20,12 @@ pre: "<b>5. </b>"
     - Lustre
     - NetApp ONTAP
     - OpenZFS
+
+
+## Amazon EFS versus FSx
+
+- EFS: This is a standard network filesystem (NFS)
+- FSx for Windows: Service Message Block (SMB) / Common Internet File System (CIFS) fileshare as a service for Windows nodes
+- FSx for Lustre: High performance shared filesystem for high performance computing (HPC) workloads
+- FSx for ONTAP: a filesystm if for use with NetApp
+- FSx for OpenZFS: a filesystem for use with Zettabyte File System (ZFS)

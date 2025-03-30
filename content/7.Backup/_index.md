@@ -24,18 +24,21 @@ pre: "<b>7. </b>"
 
 ## Supported data services
 - Aurora
-- CloudFormation (new)
+- CloudFormation
 - DocumentDB
 - DynamoDB
 - EBS
+- EC2
 - EFS
 - FSx (including Lustre, Windows File Server, ONTAP, and OpenZFS)
 - Neptune
 - RDS
-- Redshift (new)
+- Redshift
 - S3
+- SAP HANA on Amazon EC2
 - Storage Gateway
-- Timestream (new)
+- Timestream
+- VMware virtual machines
 
 ## Integration with AWS Organizations
 - Used to manage and monitor deployments across multiple accounts
@@ -66,8 +69,10 @@ pre: "<b>7. </b>"
     - monthly
     - custom period using CRON expression (minimum of hourly)
 - Enable continuous backups checkbox to create a point-in-time restore (PITR)-enabled continuous backup rule
+    - Aurora
     - RDS
     - S3
+    - SAP HANA on Amazon EC2
 - Set the backup window
 - Enable replication to other regions
 - Define the retention period

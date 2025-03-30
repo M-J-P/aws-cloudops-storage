@@ -32,6 +32,7 @@ pre:
     - Reduces data egress charges
 
 ##### **Amazon FSx File Gateway**
+- No longer available for new customers.  Use FSx for Windows File Server share instead
 - Stores and retrieves **objects in Amazon FSx Windows Server**
     - Local file writes and reads benefiting from all the features available on FSx for Windows File Server
     - 1:1 correspondence between the remote and locally visible files

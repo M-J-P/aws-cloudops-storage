@@ -31,7 +31,6 @@ pre:
     - Amazon EFS-managed keys *(aws/elasticfilesystem)*, which is the default
     - custom Keys stored in AWS Key Management Service
 - Enable encryption of data at rest when creating an Amazon EFS file system
-- Enable encryption of data in transit when mounting the file system
 
 `STEP 10:`  Leave the *Enable encryption of data at rest* checkbox selected.
 
