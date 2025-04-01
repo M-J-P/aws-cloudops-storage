@@ -51,11 +51,10 @@ pre:
 
 `STEP 20:`  Upon returning to the *Amazon S3 > Buckets > \<YOUR BUCKET\>* page, select **Create event notification**.
 
-`STEP 21:`  Under **General configuration** ...
-- Perform these steps:
-    - Provide an **Event name**
-    - Leave **Prefix** as-is
-    - Enter *.txt* for **Suffix**
+`STEP 21:`  Under **General configuration** ...  
+- Provide an **Event name**
+- Leave **Prefix** as-is
+- Enter *.txt* for **Suffix**
 
 `STEP 22:`  Under **Event types** ...
     - Select the *All object create events* checkbox
