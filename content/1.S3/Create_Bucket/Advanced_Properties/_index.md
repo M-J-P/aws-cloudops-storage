@@ -52,32 +52,32 @@ pre:
 `STEP 20:`  Upon returning to the *Amazon S3 > Buckets > \<YOUR BUCKET\>* page, select **Create event notification**.
 
 `STEP 21:`  Under **General configuration** ...  
-- Provide an **Event name**
-- Leave **Prefix** as-is
-- Enter *.txt* for **Suffix**
+- Provide an **Event name**  
+- Leave **Prefix** as-is  
+- Enter *.txt* for **Suffix**  
 
 `STEP 22:`  Under **Event types** ...  
-- Select the *All object create events* checkbox
-- Select the *All object removal events* checkbox
+- Select the *All object create events* checkbox  
+- Select the *All object removal events* checkbox  
 
 `STEP 23:`  Under **Destination** ...  
-- Select the *SNS* radio button
-- Leave the *Choose from your SNS topics* radio button as-is
-- From the drop-down, select your previously made SNS topic
+- Select the *SNS* radio button  
+- Leave the *Choose from your SNS topics* radio button as-is  
+- From the drop-down, select your previously made SNS topic  
 
 `STEP 24:`  Skip to the bottom of the page and select **Save changes**
 
 `STEP 25:`  Upon returning to the *Amazon S3 > Buckets > \<YOUR BUCKET\>* page, upload a file with a ".txt" extension to your S3 bucket.  Was a notification received?  
-- Navigate to the **Objects** tab.
-- Select **Upload**.
-- Select **Add files**.
-- Choose a file with a ".txt" extension from your machine.  Create one if necessary.
-- Skip to the bottom and select **Upload**.
+- Navigate to the **Objects** tab  
+- Select **Upload**  
+- Select **Add files**  
+- Choose a file with a ".txt" extension from your machine.  Create one if necessary  
+- Skip to the bottom and select **Upload**  
 
 `STEP 26:`  Delete the uploaded file.  Was a notification received?  
-- Navigate to the **Objects** tab.
-- Select the checkbox of the uploaded file.
-- Select **Delete** and follow the instructions to delete it.
+- Navigate to the **Objects** tab  
+- Select the checkbox of the uploaded file  
+- Select **Delete** and follow the instructions to delete it  
 
 `OPTIONAL:`  Upload another file with a different extension.  Was a notification received?
 
