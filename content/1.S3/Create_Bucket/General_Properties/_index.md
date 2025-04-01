@@ -13,7 +13,7 @@ pre:
 
 `STEP 6:`  Choose a unique name for your bucket
 
-`STEP 7:`  Select the **us-east-1** region for your bucket
+`STEP 7:`  Notice the default region for your bucket is **us-east-1**
 
 #### Object Ownership:
 - ACL Disabled *(recommended)*:  ensures that every object in the bucket is owned by the account owner
