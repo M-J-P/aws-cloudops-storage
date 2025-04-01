@@ -36,7 +36,7 @@ pre: "<b>1. </b>"
 - Use cases include applications that require very fast access to data, such as data analytics, machine learning, and high-performance computing
 - Generally available at the end of 2023
 
-##### **Talbe Buckets**: optimized for storing and managing tabular data
+##### **Table Buckets**: optimized for storing and managing tabular data
 - Offers built-in support for Apache Iceberg, a popular open-source table format
 - Currently in preview release, available in early-stage in three US regions as of 2025
 
