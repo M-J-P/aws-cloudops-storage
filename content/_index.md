@@ -9,7 +9,7 @@ weight: 1
 # Amazon CloudOps Storage Workshop
 
 {{% notice info%}}
-Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1HNw-LBWG5JHo83Pb-1Qlqpgxh3a-92C6Pwye3qxdj0Q/edit?usp=sharing) and update your progress as you go through the workshop!
+Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1HNw-LBWG5JHo83Pb-1Qlqpgxh3a-92C6Pwye3qxdj0Q/edit?gid=129399250#gid=129399250) and update your progress as you go through the workshop!
 {{% /notice%}}
 
 
