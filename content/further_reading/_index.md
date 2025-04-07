@@ -38,3 +38,18 @@ Collected links to additional good reads:
 - [SSD vs. HDD: What’s the Difference?](https://iosafe.com/data-protection-topics/ssd-vs-hdd/)
 
 - [Amazon EBS volume types](https://aws.amazon.com/ebs/volume-types/)
+
+
+Matthew's favorite Udemy training:
+- [AWS Certified Cloud Practitioner Practice Exams (N. Davis)](https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c/)
+
+- [AWS Certified Solutions Architect Associate Practice Exams (N. Davis)](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests-k/)
+
+- [AWS Certified Solutions Architect Associate Practice Exams (J. Bonso)](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/)
+
+- [Learning Python for Data Analysis and Visualization (J. Portilla)](https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/)  
+*This training has not been updated since 2022*
+
+- [Go: The Complete Developer's Guide (S. Grider)](https://www.udemy.com/course/go-the-complete-developers-guide/)
+
+*These recommendations are made without any personal financial benefit.*
